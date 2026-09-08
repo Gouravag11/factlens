@@ -1,0 +1,26 @@
+# Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database
+factlens.db
+*.sqlite3
+
+# Qdrant local storage (if any)
+qdrant_storage/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
